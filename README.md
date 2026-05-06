@@ -54,6 +54,6 @@ morpion/
 3. Le premier joueur à aligner **3 symboles** (ligne, colonne ou diagonale) gagne.
 4. Si toutes les cases sont remplies sans gagnant, c'est un **match nul**.
 
-## Auteur
+## Réalisateur
 
 NGASSAM Franck-Enrick
