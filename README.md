@@ -1,4 +1,4 @@
-# 🎮 Morpion (Tic-Tac-Toe)
+#  Morpion (Tic-Tac-Toe)
 
 Un jeu de morpion en ligne de commande, écrit en Python.
 
