@@ -19,7 +19,7 @@ python morpion.py
 ## Exemple de partie
 
 ```
-🎮 Bienvenue au Morpion !
+ Bienvenue au Morpion !
 Les cases sont numérotées : ligne (1-3) puis colonne (1-3).
 
   1   2   3
