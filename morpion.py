@@ -67,7 +67,7 @@ def jouer_partie():
     joueurs = ["X", "O"]
     tour = 0
 
-    print("\n🎮 Bienvenue au Morpion !")
+    print("\n Bienvenue au Morpion !")
     print("Les cases sont numérotées : ligne (1-3) puis colonne (1-3).\n")
 
     while True:
@@ -79,12 +79,12 @@ def jouer_partie():
 
         if verifier_victoire(grille, joueur):
             afficher_grille(grille)
-            print(f"🏆 Bravo ! Le joueur {joueur} a gagné !\n")
+            print(f" Bravo ! Le joueur {joueur} a gagné !\n")
             return joueur
 
         if verifier_egalite(grille):
             afficher_grille(grille)
-            print("🤝 Match nul ! Bonne partie !\n")
+            print(" Match nul ! Bonne partie !\n")
             return None
 
         tour += 1
@@ -106,7 +106,7 @@ def main():
 
         rejouer = input("Voulez-vous rejouer ? (o/n) : ").strip().lower()
         if rejouer not in ("o", "oui", "y", "yes"):
-            print("\nMerci d'avoir joué ! À bientôt 👋")
+            print("\nMerci d'avoir joué ! À bientôt ")
             break
 
 
